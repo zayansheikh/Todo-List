@@ -9,7 +9,7 @@ function save() {
     alert("Enter Task..")
   }
   else if(email == ""){
-    var con = confirm("Are you sure you want save with day")
+    var con = confirm("Are you sure you want save with out day")
     if(con == true){
       var obj = {
         todolist: todo,
